@@ -12,5 +12,6 @@ Ceci est le code source de l'application
 -GANGLO Ulrich
 -DAHOUE Isaac
 -TATE Isnelle
+-ZINSOU Marcellin
 -AFAFA Roosevelt
 -AHONON Gobi

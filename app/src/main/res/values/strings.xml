@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Gstocks</string>
+    <string name="logo_app">logo_app</string>
+    <string name="descriptionapp">Bienvenue sur Gstocks , l\'application qui vous permet de mieux gerer vos stocks en temps réel.</string>
+    <string name="titlestartbutton">C\'est parti !</string>
+    <string name="svgsupermarket">TODO</string>
+    <string name="connexion">Connexion</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="mot_de_passe_oubli_e">Mot de passe oublié?</string>
+    <string name="ou">ou</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="nom_et_prenoms">Nom et prenoms</string>
+    <string name="nomprenoms_gmail_com">nomprenoms@gmail.com</string>
+    <string name="adresse_email">Adresse email:</string>
+    <string name="gestionnaire_de_stock">Gestionnaire de stock</string>
+    <string name="icone_profile">icone profile</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close </string>
+    <string name="onglet_category">Categories</string>
+    <string name="onglet_operation">Opérations</string>
+    <string name="onglet_inventory">Inventaire</string>
+    <string name="nouvelle_vente">Nouvelle Vente</string>
+    <string name="quantite">Quantite</string>
+    <string name="enregistrer_une_nouvelle_vente">Enregistrer une nouvelle vente</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="nouvelle_categorie">Nouvelle Categorie</string>
+
+    <string name="description">Description</string>
+
+    <string name="enregistrer_une_nouvelle_categorie">Enregistrer une nouvelle categorie</string>
+    <string name="nouveau_produit">Nouveau produit</string>
+    <string name="nom">Nom</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="categorie">Categorie</string>
+    <string name="prix_d_achat">Prix d\'achat</string>
+
+    <string name="date_de_peremption">Date de peremption</string>
+</resources>

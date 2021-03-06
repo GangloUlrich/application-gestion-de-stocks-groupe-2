@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+        <item
+            android:id="@+id/ic_product"
+            android:icon="@drawable/ic_product"
+            android:title="Liste des produits" />
+
+
+
+        <item
+            android:id="@+id/ic_operation"
+            android:icon="@drawable/ic_operation"
+            android:title="Operations sur les produits" />
+
+
+
+        <item
+            android:id="@+id/ic_inventory"
+            android:icon="@drawable/ic_inventory"
+            android:title="Inventaire" />
+
+
+
+        <item
+            android:id="@+id/ic_story"
+            android:icon="@drawable/ic_story"
+            android:title="Historique" />
+
+
+
+        <item
+            android:id="@+id/ic_help"
+            android:icon="@drawable/ic_help"
+            android:title="Aide" />
+
+
+
+        <item
+            android:id="@+id/ic_about"
+            android:icon="@drawable/ic_about"
+            android:title="A propos" />
+
+</menu>

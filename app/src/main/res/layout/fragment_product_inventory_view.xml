@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductInventoryViewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_marginTop="4dp"
+        android:src="@mipmap/ic_probook_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="152dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="8dp"
+        android:text="Nom du produit"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="360dp">
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quantite Initial en stock :" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="7dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="500"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="410dp">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quantite vendue :" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="7dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="150"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="461dp">
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quantite restant : " />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="7dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="250"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="521dp">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Prix d'achat :" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1000 FCFA"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="36dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="569dp">
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Prix de vente" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1500 FCFA"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="630dp">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Benefice réalisé:" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="162dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="35000 FCFA"
+            android:textColor="#4CAF50"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Données Spécifiques"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
